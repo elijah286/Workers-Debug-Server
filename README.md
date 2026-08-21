@@ -6,16 +6,16 @@ Information about the Workers Debug Server can be found here : [docs.workersforl
 ## Requirements
 
 LabVIEW 2017 or later.  
-Workers SDK version 5.0 : download from [vipm.io/package/sc_workers/](https://www.vipm.io/package/sc_workers/)
+Workers SDK version 5.1 : download from [vipm.io/package/sc_workers/](https://www.vipm.io/package/sc_workers/)
 
 ## Architecture
-The Workers 5.0 Debug Server application contains the following Workers, arranged in the following call-chain hierarchy. Each Worker uses the standard Worker APIs for communication between a Worker and its Caller. Thus, communication between Workers exists only up and down the Worker call-chain hierarchy, except where message bypasses are indicated, in which case a message is sent directly from one Worker to another.
+The Workers 5.1 Debug Server application contains the following Workers, arranged in the following call-chain hierarchy. Each Worker uses the standard Worker APIs for communication between a Worker and its Caller. Thus, communication between Workers exists only up and down the Worker call-chain hierarchy, except where message bypasses are indicated, in which case a message is sent directly from one Worker to another.
 
 ![Asset 10](https://github.com/w4lv-community/Workers-Debug-Server/assets/166398268/2b68d7db-f6cd-4a06-b9fe-27051511cc56)
 
 ## Workers
 
-The Worker 5.0 Debug Server application contains the following Workers:
+The Worker 5.1 Debug Server application contains the following Workers:
 
 ### Debug Server
 The Head Worker of the application. Facilitates as a message broker for its subWorkers. Manages the application's overall state.
